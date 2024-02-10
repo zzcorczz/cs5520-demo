@@ -11,7 +11,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Welcome to {appName}</Text>
       <StatusBar style="auto"/>
-      <Header name="My Awesome App!"/>
+      <Header name={appName} version={2}/>
     </View>
   );
 };
